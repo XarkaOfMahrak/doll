@@ -6,10 +6,12 @@
   
   #phrases {
     list-style: q;
+    margin-bottom: 110px;
   }
 
   #phrases > li::marker {
     font-weight: bold;
+
   }
 
   li + li {
@@ -18,4 +20,35 @@
 
   li.selected {
     background: rgb(198, 238, 189);
+  }
+
+
+  .fab-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  .fab-container .fab {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: #0073ff;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .fab-container .fab .fab-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    color: white;
+    font-size: 48px;
   }

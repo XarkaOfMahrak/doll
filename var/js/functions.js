@@ -73,7 +73,7 @@ function roll() {
     // Pick a number between 1 and Number of elements
     const number = secureRand(1, numberMax)
 
-    document.getElementById("result").textContent = number
+    //document.getElementById("result").textContent = number
 
     const childs=Array.from(ul.children)
     childs.forEach(
