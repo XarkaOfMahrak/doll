@@ -1,0 +1,21 @@
+@counter-style q {
+    system: extends decimal;
+    prefix: "D";
+    suffix: " : ";
+  }
+  
+  #phrases {
+    list-style: q;
+  }
+
+  #phrases > li::marker {
+    font-weight: bold;
+  }
+
+  li + li {
+    margin-top: 10px;
+  }
+
+  li.selected {
+    background: rgb(198, 238, 189);
+  }
