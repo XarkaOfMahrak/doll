@@ -7,10 +7,12 @@ async function loadSentences() {
     var listItemCounter = 1;
 
     phrases.forEach((phrase) => {
-        var li = document.createElement("li");
-        //li.id = 'D' + listItemCounter++;
-        li.appendChild(document.createTextNode(phrase));
-        ul.appendChild(li);
+        if (phrase.length > 0) {
+            var li = document.createElement("li");
+            //li.id = 'D' + listItemCounter++;
+            li.appendChild(document.createTextNode(phrase));
+            ul.appendChild(li);
+        }
       });
 }
 
