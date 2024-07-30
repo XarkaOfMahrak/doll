@@ -1,0 +1,15 @@
+{
+    "name": "Phrases de poupées",
+    "short_name": "Doll",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#fa574b",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "var/img/512-icon.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+    ]
+  }
